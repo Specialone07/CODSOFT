@@ -19,10 +19,10 @@ const Navbar = () => {
   
 
   return (
-    <nav className="bg-gradient-to-r from-slate-300 to-slate-500 p-3 md:p-2">
+    <nav className="bg-stone-200">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
-          <Link to='/home'>
+          <Link to='/'>
             <img src={logo} alt="" className="h-10 md:h-14 w-auto" />
           </Link>
         </div>
